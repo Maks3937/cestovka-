@@ -10,15 +10,62 @@
 
   --font-nadpesy: "Montserrat", sans-serif;
   --font-body: "Open Sans", sans-serif;
+
+--medzera-s: 1rem;
+--medzera-m: 1.5rem;
+--medzera-i: 2rem;
+--medzera-x: 3rem;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
+
+
 body{
     font-size: 1rem;
     font-family:var(--font-body) ;
     background-color: var(--pozadie-biela);
     color: var(--text-tmavy);
+}
+
+ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+h1,h2,h3{
+  font-family: var(--font-nadpesy);
+  margin: 0px;
+}
+
+.hlavicka{
+  background-color: var(--primarna);
+  color: var(--pozadie-svetla);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.navigacia_zoznam{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.navigacia_odkaz{
+
+}
+
+.navigacia_odkaz:hover{
+  color: #f97316;
 }
