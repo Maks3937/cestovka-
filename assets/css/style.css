@@ -55,6 +55,9 @@ h1,h2,h3{
   gap: 1rem;
 }
 
+
+
+
 .navigacia_zoznam{
   display: flex;
   flex-direction: column;
@@ -77,9 +80,6 @@ transition: background-color 0.3s;
 
 
 
-
-
-
 .hero{
   background: linear-gradient(135deg, var(--primarna), var(--primarna-tmava));
   display: flex;
@@ -87,5 +87,52 @@ transition: background-color 0.3s;
   align-items: center;
   color: var(--pozadie-biela);
   padding: 3rem;
+  gap: var(--medzera-m);
 
+}
+
+.hero__nadpis{
+  font-size: 2rem;
+  margin-bottom: var(--medzera-m);
+}
+
+.hero__odstavec{
+  font-size: 1.125rem;
+  margin-bottom: var(--medzera-i);
+}
+
+
+.tlacidlo{
+  background-color: var(--akcent);
+  padding: .75rem var(--medzera-m);
+  border-radius: 6px;
+  font-weight: 600;
+  transition: all 0.3s;
+}
+
+.tlacidlo:hover{
+  background-color: var(--akcent);
+}
+
+
+
+
+
+.dvovody{
+  background-color: var(--pozadie-svetla);
+}
+
+.dvovody__nadpis{
+  text-align: center;
+}
+
+.vyhody{
+display: grid;
+grid-template-columns: 1fr ;
+}
+
+.vyhoda{
+background-color: var(--pozadie-biela);
+padding: var(--medzera-m);
+box-shadow: 0 2px 8px rgb(0, 0, 0, 0.1);
 }
